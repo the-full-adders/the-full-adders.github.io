@@ -16,7 +16,7 @@ jobs:
           mkdir -p dist ./dist/static
           cp ./src/index.html ./dist/ 
           cp ./static/* ./dist/static/
-          npm build
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
