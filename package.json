@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "mkdir -p dist && cp ./src/index.html ./dist/ && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "author": "",
   "license": "ISC"
